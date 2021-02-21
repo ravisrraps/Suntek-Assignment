@@ -1,10 +1,10 @@
-class Solution:
-    def search(self, nums: List[int], target: int) -> int:
-        for i in range(len(nums)):
-            if(target in nums):
-                return(nums.index(target))
-                break
-            else:
-                return(-1)
-                break
-        
+num = [4,5,6,7,0,1,2]
+x = int(input())
+for i in range(len(num)):
+    if(x in num):
+        print(x)
+        print(num.index(x))
+        break
+    else:
+        print(-1)
+        break
